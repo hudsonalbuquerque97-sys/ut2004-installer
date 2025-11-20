@@ -1,0 +1,113 @@
+# UT2004 Linux Installer - .gitignore
+
+# Downloaded game files
+*.rar
+*.tar.bz2
+*.exe
+*.zip
+*.7z
+
+# Extracted directories
+extracted/
+UT2004-Patch/
+temp/
+tmp/
+
+# Game installation (if accidentally in repo)
+Games/
+ut2004/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Log files
+*.log
+install.log
+error.log
+
+# Backup files
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Python (if adding Python scripts later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Node (if adding Node scripts later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+build/
+dist/
+*.deb
+*.rpm
+
+# Test files
+test/
+tests/
+*.test
+
+# Documentation builds
+docs/_build/
+site/
+
+# Patch files
+*.patch
+*.diff
+
+# Compressed archives (except the script itself)
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.xz
+
+# CD Keys (security)
+cdkey
+*.key
+keys.txt
+
+# Personal configuration
+config.local
+*.local
+
+# Debug
+debug/
+*.debug
